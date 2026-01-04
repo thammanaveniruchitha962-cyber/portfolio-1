@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:bisque;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    width: 70%;
+    background: white;
+    margin: 30px auto;
+    padding: 25px 40px;
+    border: 2px solid #000;
+   
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.header h2 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header p {
+    margin: 3px 0;
+}
+
+.section-title {
+    background: #ddd;
+    padding: 6px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+
+
+
+ .profile-pic {
+            float: right;
+            width: 120px;
+            border: 1px solid #000;
+        }
+        ul { margin: 5px 0 5px 20px; }

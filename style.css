@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #fff;
+}
+
+.home-section {
+  background: transparent;
+}
+
+.glass-box {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(12px);
+}
+
+.glass-box {
+  padding: 40px;
+}
+
+.glass-card {
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Home */
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Social icons */
+.social-links a {
+  font-size: 1.8rem;
+  margin: 0 12px;
+  color: #0dcaf0;
+}
+
+/* Images */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Mobile fixes */
+@media (max-width: 768px) {
+  .section {
+    padding: 80px 15px;
+  }
+}
